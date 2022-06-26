@@ -36,6 +36,7 @@ router.post('/',
                 firstname,
                 lastname,
                 role,
+                fav:[],
                 address,
                 isVerified
             });

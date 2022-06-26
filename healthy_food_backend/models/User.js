@@ -22,7 +22,6 @@ const userSchema = mongoose.Schema({
     fav:{
         type:Array,
         required:false,
-        unique:true,
         default:[]
 
     },
